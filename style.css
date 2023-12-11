@@ -1,15 +1,15 @@
 body {
     margin-top: 50px;
-    background-color: gray;
+    background-color:lightseagreen;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #dropdown-menu {
   border: 2px solid black;
-  color: black;
   cursor: pointer;
   height: 50px;
   line-height: 50px;
@@ -50,7 +50,7 @@ body {
 }
 
 .dropdown-list a:hover {
-  background: black;
+  background: blue;
   color: #fff;
 }
 
@@ -94,11 +94,16 @@ body {
   background-color: white;
 }
 
-.mini-container {
+.container_date {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.date {
+    background-color: lightseagreen;
+}
+
 
 .mini-box {
     display: flex;
@@ -107,10 +112,12 @@ body {
     justify-content: flex-end;
 }
 
-h1 {
-    background-color: lightpink;
-    color: black;
+h2 {
     width: 300px;
     text-align: center;
-    font-size: 75px;
+    font-size: 40px;
+}
+
+h1{
+    text-align: center;
 }
